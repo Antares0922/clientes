@@ -10,7 +10,7 @@ def recibir_todo(sock, n_bytes):
         data += paquete
     return data
 
-ip = "192.168.0.222"
+ip = "192.168.100.5"
 puerto = 8078
 
 cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
